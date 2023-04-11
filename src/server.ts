@@ -9,6 +9,13 @@ app.listen(PORT, () => {
 })
 
 // Remove Later
+
+app.get('/', (req: any, res: any) => {
+    console.log("here")
+    res.send("HELLO WORLD CHECK")
+})
+
+
 app.get('/health', (req: any, res: any) => {
     console.log("here")
     res.send("health check")
