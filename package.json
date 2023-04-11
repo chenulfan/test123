@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "tsc": "tsc",
+    "build": "npm run tsc",
     "start": "npm run tsc && node build/server.js"
   },
   "author": "",
