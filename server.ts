@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 
 const app = express();
 
@@ -9,7 +9,7 @@ app.listen(PORT, () => {
 })
 
 // Remove Later
-app.get('/health', (req, res) => {
+app.get('/health', (req: any, res: any) => {
     console.log("here")
     res.send("health check")
 })
