@@ -2,11 +2,9 @@
   "name": "be",
   "version": "1.0.0",
   "description": "",
-  "main": "server.ts",
+  "main": "/src/server.ts",
   "scripts": {
-    "start": "ts-node server",
-    "tsc": "tsc",
-    "start:prod": " npm run tsc && node build/server.js"
+    "start": "nodemon src/server.ts"
   },
   "author": "",
   "license": "ISC",
