@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "tsc": "tsc",
-    "start": "npm run tsc && node build/src/server.js"
+    "start": "npm run tsc && node build/server.js"
   },
   "author": "",
   "license": "ISC",
