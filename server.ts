@@ -8,7 +8,7 @@ const app = express();
 
 const PORT = process.env.PORT || 4040;
 
-mongoose.connect(process.env.MONGO_CONNECTION_STRING as string);
+mongoose.connect(process.env.MONGO_CONNECTION_STRING as string || "");
 
 const db = mongoose.connection;
 
